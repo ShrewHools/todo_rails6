@@ -8,6 +8,9 @@ import Turbolinks from "turbolinks"
 import * as ActiveStorage from "@rails/activestorage"
 import "channels"
 import 'bootstrap'
+import 'daterangepicker'
+
+require('packs/home');
 
 Rails.start()
 Turbolinks.start()
